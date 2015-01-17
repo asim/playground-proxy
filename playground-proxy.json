@@ -12,7 +12,7 @@
         "imagePullPolicy": "PullAlways",
         "ports": [{"containerPort": 80}, {"containerPort": 443}],
         "env": [
-          {"name": "PROXY_DOMAIN", "value": "myodc.io"},
+          {"name": "PROXY_DOMAIN", "value": "example.com"},
         ]
       }]
     }
